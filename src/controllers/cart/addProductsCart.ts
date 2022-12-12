@@ -27,7 +27,7 @@ export default function addProductsCart(req: Request, res: Response) {
 		console.log(error);
 		res.status(404).json({
 			ok: false,
-			msg: 'No se encontro el carrito o no existe',
+			msg: 'No se encontro el carrito',
 		});
 	}
 }
